@@ -1,9 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "../../styles/layouts/navBar.css";
 
 const navBar = () => {
   return (
-    <nav className="navbar navbar-expand-md navbar-light bg-white absolute-top">
+    <nav className="navbar navBar navbar-expand-md navbar-light absolute-top">
       <div className="container">
         <Link className="navbar-brand mx-auto order-1 order-md-3" to="/">
           Lilith Mag
